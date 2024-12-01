@@ -18,7 +18,7 @@ there is a var call overflowme contains 32 bytes
 
 it cause a smashing after we inputs over 32 bytes 
 
-So, we need to find the offset  of ebp to bof it
+So, we need to find how many bytes can cause buffer overflow
 
 Step 2 find the overflow bytes
 --
